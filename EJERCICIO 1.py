@@ -6,7 +6,7 @@ matriz = [
 ]
 
 print(matriz)
-# funcion buscar_valor especifico
+# funcion para buscar_valor especifico
 def buscar_valor(matriz,valor_buscado):
     for i in range(len(matriz)):
         for j in range(len(matriz[i])):
