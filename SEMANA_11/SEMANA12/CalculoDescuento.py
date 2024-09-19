@@ -4,6 +4,7 @@
 # descuento en compras en función del monto total de la compra y mostrar el monto final a .
 #Función para calcular el descuento
 def calcular_descuento(valor_total,porcentaje_descuento=40):
+    #aplicando la formula para sacar el descuento
     descuento = valor_total * porcentaje_descuento / 100
     return descuento
 #Función para mostrar el resultado
